@@ -435,64 +435,6 @@ Full-Width Styles
   background: #212121;
 }
 
-.css-slideshow{
-  position: relative;
-  max-width: 200px;
-  height: 200px;
-  margin: 5em auto .5em auto;
-}
-.css-slideshow figure{
-  margin: 0;
-  max-width: 200px;
-  height: 200px;
-  background: #000;
-  position: absolute;
-}
-.css-slideshow img{
-  box-shadow: none;
-}
-.css-slideshow figcaption{
-  position: absolute;
-  top: 0;
-  color: #fff;
-  background: rgba(0,0,0, .3);
-  font-size: .8em;
-  padding: 8px 12px;
-  opacity: 0;
-  -webkit-transition: opacity .5s;
-}
-.css-slideshow:hover figure figcaption{
-  -webkit-transition: opacity .5s;
-  opacity: 1;
-}
-.css-slideshow-attr{
-  max-width: 495px;
-  text-align: right;
-  font-size: .7em;
-  font-style: italic;
-  margin:0 auto;
-}
-.css-slideshow-attr a{
-  color: #666;
-}
-.css-slideshow figure{
-  opacity:0;
-}
-figure:nth-child(1) {
-  -webkit-animation: xfade 30s 10s infinite;
-}
-figure:nth-child(2) {
-  -webkit-animation: xfade 20s 0s infinite;
-}
-
-@-webkit-keyframes xfade {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
-@keyframes xfade {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
 
 /*******************************************************************************
 Small Device Styles
