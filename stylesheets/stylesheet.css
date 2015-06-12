@@ -459,13 +459,12 @@ Full-Width Styles
   padding: 5px;
 }
 
-#bundles {
-  padding-top: 20px;
-  padding-bottom: 10px;
+#container {
+  text-align: justify;
 }
 
-#bundles a {
-  vertical-align: middle;
+#container div {
+  display: inline-block;
 }
 
 /*******************************************************************************
